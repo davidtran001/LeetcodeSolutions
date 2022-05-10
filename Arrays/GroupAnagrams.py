@@ -9,4 +9,5 @@ class Solution:
             dict[tuple(count)].append(s)
             
         return dict.values()
-                
+
+# hashset hashed with tuples that take the count of each character in each string and group matching ones together

@@ -15,3 +15,5 @@ class Solution:
             postfix *= nums[i]
 
         return solu
+
+# for each num calculate prefix and postfix -> prefix * postfix = product except num

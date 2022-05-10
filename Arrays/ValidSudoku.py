@@ -14,3 +14,5 @@ class Solution:
                 cols[c].add(board[r][c])
                 box[(r//3,c//3)].add(board[r][c])
         return True
+# loop through each row, col and box and check if duplicates
+# trick is to map the 3x3 boxes to a alternate index

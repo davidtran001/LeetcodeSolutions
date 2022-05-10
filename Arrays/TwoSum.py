@@ -10,3 +10,4 @@ class Solution:
             dict[num] = i
                 
             
+# hashmap that stores index of each num, loop through nums to see if there is some sum = target

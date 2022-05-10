@@ -10,3 +10,5 @@ class Solution:
                     count += 1
                 mx = max(mx, count)
         return mx
+
+# create set out of nums, loop through nums and check if num is the start of a 'chain'

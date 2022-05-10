@@ -18,3 +18,5 @@ class Solution:
                     
         if dict: return False
         return True
+
+# hashmap tracks count of each char in s, if t has the exact same count then True 

@@ -7,3 +7,5 @@ class Solution:
                 return True
             hashset.add(n)
         return False
+
+# use hashset, if num in hashset already -> nums contains duplicate

@@ -17,4 +17,5 @@ class Solution:
                 solu.append(num)
                 if len(solu) == k:
                     return solu
-                
+
+# bucket sort indexed by count, interate through loop backwords to find k most frequent elements 

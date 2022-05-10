@@ -10,6 +10,8 @@ class Solution:
             for string in strs
         )
 
+# encode s.t the encoding can gives info about len of each string 
+
     """
     @param: str: A string
     @return: dcodes a single string to a list of strings
@@ -24,3 +26,5 @@ class Solution:
             res.append(str[j + 1 : j + 1 + length])
             i = j + 1 + length
         return res
+
+# since encode tells us length of each string prior, decode using this info
